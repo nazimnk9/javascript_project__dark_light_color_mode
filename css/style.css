@@ -199,12 +199,17 @@
     margin-right: 10px;
     font-size: 1rem;
   }
+
+  .theme-switch-wrapper span i{
+    color: var(--primary-color);
+  }
   
   .toggle-text {
     position: relative;
     top: -4px;
     right: 5px;
-    color: var(--on-background);
+    /* color: var(--on-background); */
+    color: var(--primary-color);
   }
   
   .theme-switch {
@@ -219,7 +224,8 @@
   }
   
   .slider {
-    background: #ccc;
+    /* background: #ccc; */
+    background: rgb(202, 59, 31);
     bottom: 0;
     cursor: pointer;
     left: 0;
